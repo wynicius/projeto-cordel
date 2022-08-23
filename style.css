@@ -27,6 +27,7 @@ a{
     a:hover{
         text-decoration: underline;
     }
+    
 header{
     background-color: black;
     text-align: center;
@@ -53,28 +54,24 @@ section{
     @media(max-width: 1200px) {
         section{
             font: 5vw/2.3em var(--fontconteudo);
-            
         }
     }
     @media(max-width: 800px) {
         section{
             font: 6vw/2.3em var(--fontconteudo);
             min-width: 320px;
-            
         }
     }
     @media(max-width: 600px) {
         section{
             font: 6vw/3.7em var(--fontconteudo);
             min-width: 320px;
-            
         }
     }
     @media(max-width: 425) {
         section{
             font: 8vw/2.3em var(--fontconteudo);
             width: 320px;
-            
         }
     } 
     .imgsec{
@@ -87,13 +84,12 @@ section{
     section.imgsec > p{
         display:inline-block;
         padding: 5px;
-        background-color: rgba(0, 0, 0, 0.445);
+        background-color: rgba(0, 0, 0, 0.37);
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
     }
     #pimg1{
         background-image: url('imagens/background001.jpg');
         background-position: right center;
-
     }
     #pimg2{ 
         background-image: url('imagens/background002.jpg');
